@@ -1,12 +1,14 @@
-# Alfred Workflows
+<h1 align="center">
+Alfred Workflows
+</h1>
 
-date: July 23, 2022  
-author: [Parth Desai](https://github.com/pycoder2000)  
-source: [Link](https://kbase.vercel.app/alfred_workflows)  
-summary: My favourite Alfred workflows and commands to trigger them  
-tags: Productivity  
-
-# Workflows
+```markdown
+Date: July 23, 2022  
+Author: Parth Desai  
+Source: https://kbase.vercel.app/alfred_workflows  
+Summary: My favourite Alfred workflows and commands to trigger them  
+Tags: Productivity  
+```
 
 1. [Alfred Github](http://www.packal.org/workflow/github-repos-0) : Easily open Github Repositories
     - Commands

@@ -7,21 +7,74 @@ Date: July 23, 2022
 Author: Parth Desai  
 Source: https://kbase.vercel.app/alfred_workflows  
 Summary: My favourite Alfred workflows and commands to trigger them  
-Tags: Productivity  
+Tags: Productivity, List, Mac
 ```
 
-1. [Alfred Github](http://www.packal.org/workflow/github-repos-0) : Easily open Github Repositories
+1. [Alfred Github](https://github.com/gharlan/alfred-github-workflow) : GitHub Workflow for Alfred
     - Commands
         
         ```bash
-        # Search for repositories in Github
-        gh <query>
+        # Github repository commands
+        gh user/repo
+        gh user/repo #123
+        gh user/repo @branch
+        gh user/repo *commit
+        gh user/repo /path/to/file
+        gh user/repo admin
+        gh user/repo clone
+        gh user/repo graphs
+        gh user/repo issues
+        gh user/repo milestones
+        gh user/repo network
+        gh user/repo new issue
+        gh user/repo new pull
+        gh user/repo projects
+        gh user/repo pulls
+        gh user/repo pulse
+        gh user/repo releases
+        gh user/repo wiki
+        gh user/repo projects
+        gh user/repo actions
         
-        # Search your own repositories
-        repo [query]
+        # User commands
+        gh @user
+        gh @user overview
+        gh @user repositories
+        gh @user stars
+        gh @user gists
         
-        # Open notifications
-        gh-notifications
+        # Search commands
+        gh s repo
+        gh s @user
+        
+        # My commands
+        gh my dashboard
+        gh my notifications
+        gh my profile
+        gh my issues
+        gh my issues created
+        gh my issues assigned
+        gh my issues mentioned
+        gh my pulls
+        gh my pulls created
+        gh my pulls assigned
+        gh my pulls mentioned
+        gh my pulls review requested
+        gh my repos
+        gh my settings
+        gh my stars
+        gh my gists
+        
+        # Workflow commands
+        gh > login
+        gh > logout
+        gh > delete cache
+        gh > delete database
+        gh > update
+        gh > activate autoupdate
+        gh > deactivate autoupdate
+        gh > help
+        gh > changelog
         ```
         
 2. [Night Shift](https://github.com/shmulvad/alfred-nightshift) : Quickly turn on/off Night Shift
@@ -164,6 +217,61 @@ Tags: Productivity
         
         # Open file in VS Code
         downloads + Fn
+        ```
+        
+12. [Google Apps](https://github.com/PierBover/AlfredWorkflowGoogleApps) : A simple workflow for accessing Google Apps
+    - Commands
+        
+        ```bash
+        # Easy access
+        `books` to open your Google Play Books
+        `books store` to the Google Play Store
+        `calendar` to open Google Calendar
+        `contacts` to open Google Contacts
+        `docs` to open Google Docs
+        `drive` to open Google Drive
+        `forms` to open Google Forms
+        `gmail` to open Gmail
+        `inbox` to open Google Inbox
+        `music` to open Google Play Music
+        `keep` to open Google Keep
+        `passwords` to open Google Passwords
+        `photos` to open Google Photos
+        `slides` to open Google Slides
+        `sheets` to open Google Sheets
+        
+        # New document
+        `new doc` to create a new Google Doc
+        `new sheet` to create a new Google Sheet
+        `new slide` to create a new Google Slide
+        `new form to` create a new Google Form
+        
+        # Search
+        `music` to search Google Play Music
+        `contacts` to search Google Contacts
+        ```
+        
+13. [File Actions](https://github.com/nikitavoloboev/small-workflows/tree/master/file-actions) : Search folders from Alfred and open them in Finder/iTerm/Editor
+    - Commands
+        
+        ```bash
+        # Simply find the file/folder and press right arrow key 
+        ```
+        
+14. [Search Folders](https://github.com/nikitavoloboev/small-workflows/tree/master/folder-search) [](https://github.com/nikitavoloboev/small-workflows/blob/master/augmentations/Recent%20Downloads.alfredworkflow?raw=true): Search folders from Alfred and open them in Finder/iTerm/Editor
+    - Commands
+        
+        ```bash
+        # Search folders
+        fo
+        ```
+        
+15. [Learn Anything](https://github.com/nikitavoloboev/alfred-learn-anything) [](https://github.com/nikitavoloboev/small-workflows/blob/master/augmentations/Recent%20Downloads.alfredworkflow?raw=true): Alfred workflow to search Learn Anything
+    - Commands
+        
+        ```bash
+        # Search
+        learn
         ```
         
 
